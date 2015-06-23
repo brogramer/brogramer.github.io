@@ -1,0 +1,17 @@
+---
+layout: post
+title: "91学游泳"
+date: 2015-06-23 21:27:31 +0800
+comments: true
+categories:
+---
+
+{% img /images/apps/swim/icon.png %}
+
+清新游泳教程，动画图解，加详细文字说明，91学蛙泳、仰泳、自由泳和蝶泳吧，您随身的游泳教练！
+
+快到水里来吧！
+
+{% img /images/apps/swim/screen-0.png %}
+{% img /images/apps/swim/screen-1.png %}
+{% img /images/apps/swim/screen-2.png %}
