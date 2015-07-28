@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: production | Brogramer]]></title>
+  <link href="http://brogramer.github.io/blog/categories/production/atom.xml" rel="self"/>
+  <link href="http://brogramer.github.io/"/>
+  <updated>2015-07-29T00:00:32+08:00</updated>
+  <id>http://brogramer.github.io/</id>
+  <author>
+    <name><![CDATA[Brogramer]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[剁手指]]></title>
+    <link href="http://brogramer.github.io/blog/2015/07/24/cut-finger/"/>
+    <updated>2015-07-24T00:55:44+08:00</updated>
+    <id>http://brogramer.github.io/blog/2015/07/24/cut-finger</id>
+    <content type="html"><![CDATA[<p><img src="/images/apps/cutfinger/icon.png"></p>
+
+<p>剁手指，来好运！这是希望大家能够得到的，因为中国有句古话：“大难不死，必有后福。”</p>
+
+<p>手痒，手贱，手气不好，买高卖低？</p>
+
+<p>该来剁手指了！</p>
+
+<p>来收集你的幸运星吧，从此好运来!</p>
+
+<h3>还在等上线哦&hellip;</h3>
+
+<h3>log</h3>
+
+<p>经过一个月的熬夜开发，《剁手指》的1.0版本终于提交送审了。今天吃了久违的巫山烤鱼，是庆祝，也是意味着2.0开始开发了。</p>
+]]></content>
+  </entry>
+  
+</feed>
