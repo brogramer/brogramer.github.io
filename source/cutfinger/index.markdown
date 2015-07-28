@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: "剁手指"
-date: 2015-07-24 00:55:44 +0800
 comments: true
-categories: production
+sharing: true
+footer: true
 ---
 
 {% img /images/apps/cutfinger/icon.png %}
@@ -15,8 +15,3 @@ categories: production
 该来剁手指了！
 
 来收集你的幸运星吧，从此好运来!
-
-### 还在等上线哦...
-
-### log
-经过一个月的熬夜开发，《剁手指》的1.0版本终于提交送审了。今天吃了久违的巫山烤鱼，是庆祝，也是意味着2.0开始开发了。
