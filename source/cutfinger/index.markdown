@@ -6,9 +6,12 @@ sharing: true
 footer: true
 ---
 
-{% img /images/apps/cutfinger/icon.png %}
+{% img /images/apps/cutfinger/icon.png 144 144 %}
 
-<a href="https://geo.itunes.apple.com/us/app/91xue-you-yong/id1006512143?mt=8" style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;width:165px;height:40px;"></a>
+
+[{% img /images/apps/ios_download.png 200 60 %}](https://itunes.apple.com/cn/app/91xue-you-yong/id1006512143)
+
+[{% img /images/apps/android_download.png 200 60 %}](/assets/apps/com.brogramer.cutfinger.apk)
 
 剁手指，来好运！
 
