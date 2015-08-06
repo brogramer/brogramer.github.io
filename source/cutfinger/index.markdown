@@ -24,7 +24,11 @@ footer: true
 
 <script
 >
-if(/iPhone|iPod/.test( navigator.userAgent )) {
+var ua = navigator.userAgent.toLowerCase();
+if(/iphone|ipod/.test(ua)) {
+  if(/micromessenger/.test(ua)) {  //检测微信内置浏览器
+
+  }
   window.location='https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089';
 }
 
