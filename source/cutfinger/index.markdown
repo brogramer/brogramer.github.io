@@ -9,7 +9,7 @@ footer: true
 {% img /images/apps/cutfinger/icon.png 144 144 %}
 
 
-[{% img /images/apps/ios_download.png 200 60 %}](https://itunes.apple.com/cn/app/91xue-you-yong/id1006512143)
+[{% img /images/apps/ios_download.png 200 60 %}](https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089)
 
 [{% img /images/apps/android_download.png 200 60 %}](/assets/apps/com.brogramer.cutfinger.apk)
 
@@ -25,7 +25,7 @@ footer: true
 <script
 >
 if(/iPhone|iPod/.test( navigator.userAgent )) {
-  window.location='https://itunes.apple.com/cn/app/91xue-you-yong/id1006512143';
+  window.location='https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089';
 }
 
 </script>
