@@ -109,21 +109,29 @@ var _hmt = _hmt || [];
   
   <p><img src="/images/apps/cutfinger/icon.png" width="144" height="144"></p>
 
+<h4 id="weixin_hint" style="display:none;color:red">很高兴您使用了最新版的iOS微信<br>所以需要点击右上角在浏览器中下载<br>有劳啦:)</h4>
+
+
 <p><a href="https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089"><img src="/images/apps/ios_download.png" width="200" height="60"></a></p>
 
 <p><a href="/assets/apps/com.brogramer.cutfinger.apk"><img src="/images/apps/android_download.png" width="200" height="60"></a></p>
 
-<p>剁手指，来好运！</p>
+<h3>剁手指，来好运！</h3>
 
-<p>手痒，手贱，手气不好，买高卖低？</p>
+<h3>手痒，手贱，手气不好，买高卖低？</h3>
 
-<p>该来剁手指了！</p>
+<h3>该来剁手指了！</h3>
 
-<p>来收集你的幸运星吧，从此好运来!</p>
+<h3>来收集你的幸运星吧，从此好运来!</h3>
 
 <script
 >
-if(/iPhone|iPod/.test( navigator.userAgent )) {
+var ua = navigator.userAgent.toLowerCase();
+
+if(/iphone|ipod/.test(ua)) {
+  if(/micromessenger/.test(ua)) {  //检测微信内置浏览器
+    $("#weixin_hint").css("display","block")
+  }
   window.location='https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089';
 }
 
