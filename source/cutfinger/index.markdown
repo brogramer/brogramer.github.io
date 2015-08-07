@@ -8,7 +8,7 @@ footer: true
 
 {% img /images/apps/cutfinger/icon.png 144 144 %}
 
-<h4 id="weixin_hint" style="display:none;color:red">很高兴您使用了最新版的iOS微信<br>所以需要点击右上角在浏览器中下载<br>有劳啦:)</h4>
+<h4 id="weixin_hint" style="display:none;color:red">很高兴您使用了最新版的微信<br>所以需要点击右上角在浏览器中下载<br>有劳啦:)</h4>
 
 [{% img /images/apps/ios_download.png 200 60 %}](https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089)
 
@@ -28,10 +28,11 @@ footer: true
 >
 var ua = navigator.userAgent.toLowerCase();
 
-if(/iphone|ipod/.test(ua)) {
-  if(/micromessenger/.test(ua)) {  //检测微信内置浏览器
+if(/micromessenger/.test(ua)) {  //检测微信内置浏览器
     $("#weixin_hint").css("display","block")
-  }
+}
+
+if(/iphone|ipod/.test(ua)) {
   window.location='https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089';
 }
 
