@@ -14,8 +14,6 @@ footer: true
 
 [{% img /images/apps/android_download.png 200 60 %}](/assets/apps/com.brogramer.cutfinger.apk)
 
-[{% img /images/apps/baidu_shouji.jpg 30 30 %} 去百度下载](http://shouji.baidu.com/game/item?docid=7875316)
-
 
 ### 剁手指，来好运！
 
