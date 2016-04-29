@@ -6,17 +6,34 @@ comments: true
 categories: production
 ---
 
-{% img /images/apps/cutfinger/icon.png %}
+{% img /images/apps/cutfinger/icon.png 144 144 %}
 
-剁手指，来好运！这是希望大家能够得到的，因为中国有句古话：“大难不死，必有后福。”
+<h4 id="weixin_hint" style="display:none;color:red">很高兴您使用了最新版的微信<br>所以需要点击右上角在浏览器中下载<br>有劳啦:)</h4>
 
-手痒，手贱，手气不好，买高卖低？
+[{% img /images/apps/ios_download.png 200 60 %}](https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089)
 
-该来剁手指了！
+[{% img /images/apps/android_download.png 200 60 %}](/assets/apps/com.brogramer.cutfinger.apk)
 
-来收集你的幸运星吧，从此好运来!
 
-### 还在等上线哦...
+### 剁手指，来好运！
 
-### log
-经过一个月的熬夜开发，《剁手指》的1.0版本终于提交送审了。今天吃了久违的巫山烤鱼，是庆祝，也是意味着2.0开始开发了。
+### 手痒，手贱，手气不好，买高卖低？
+
+### 该来剁手指了！
+
+### 来收集你的幸运星吧，从此好运来!
+
+
+<script
+>
+var ua = navigator.userAgent.toLowerCase();
+
+if(/micromessenger/.test(ua)) {  //检测微信内置浏览器
+    $("#weixin_hint").css("display","block")
+}
+
+if(/iphone|ipod/.test(ua)) {
+  window.location='https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089';
+}
+
+</script>
