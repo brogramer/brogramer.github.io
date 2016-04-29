@@ -4,7 +4,7 @@
   <title><![CDATA[Category: production | Brogramer]]></title>
   <link href="http://brogramer.github.io/blog/categories/production/atom.xml" rel="self"/>
   <link href="http://brogramer.github.io/"/>
-  <updated>2015-08-18T15:44:31+08:00</updated>
+  <updated>2016-04-29T10:20:28+08:00</updated>
   <id>http://brogramer.github.io/</id>
   <author>
     <name><![CDATA[Brogramer]]></name>
@@ -18,21 +18,37 @@
     <link href="http://brogramer.github.io/blog/2015/07/24/cut-finger/"/>
     <updated>2015-07-24T00:55:44+08:00</updated>
     <id>http://brogramer.github.io/blog/2015/07/24/cut-finger</id>
-    <content type="html"><![CDATA[<p><img src="/images/apps/cutfinger/icon.png"></p>
+    <content type="html"><![CDATA[<p><img src="/images/apps/cutfinger/icon.png" width="144" height="144"></p>
 
-<p>剁手指，来好运！这是希望大家能够得到的，因为中国有句古话：“大难不死，必有后福。”</p>
+<h4 id="weixin_hint" style="display:none;color:red">很高兴您使用了最新版的微信<br>所以需要点击右上角在浏览器中下载<br>有劳啦:)</h4>
 
-<p>手痒，手贱，手气不好，买高卖低？</p>
 
-<p>该来剁手指了！</p>
+<p><a href="https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089"><img src="/images/apps/ios_download.png" width="200" height="60"></a></p>
 
-<p>来收集你的幸运星吧，从此好运来!</p>
+<p><a href="/assets/apps/com.brogramer.cutfinger.apk"><img src="/images/apps/android_download.png" width="200" height="60"></a></p>
 
-<h3>还在等上线哦&hellip;</h3>
+<h3>剁手指，来好运！</h3>
 
-<h3>log</h3>
+<h3>手痒，手贱，手气不好，买高卖低？</h3>
 
-<p>经过一个月的熬夜开发，《剁手指》的1.0版本终于提交送审了。今天吃了久违的巫山烤鱼，是庆祝，也是意味着2.0开始开发了。</p>
+<h3>该来剁手指了！</h3>
+
+<h3>来收集你的幸运星吧，从此好运来!</h3>
+
+<script
+>
+var ua = navigator.userAgent.toLowerCase();
+
+if(/micromessenger/.test(ua)) {  //检测微信内置浏览器
+    $("#weixin_hint").css("display","block")
+}
+
+if(/iphone|ipod/.test(ua)) {
+  window.location='https://itunes.apple.com/us/app/duo-shou-zhi/id1016814089';
+}
+
+</script>
+
 ]]></content>
   </entry>
   
