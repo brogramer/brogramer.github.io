@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://brogramer.github.io/blog/2015/07/24/cut-finger/</loc>
+    <loc>http://brogramer.github.io/cutfinger</loc>
     <lastmod>2015-07-24T00:55:44+08:00</lastmod>
   </url>
   <url>
-    <loc>http://brogramer.github.io/blog/2015/06/23/swim-app/</loc>
+    <loc>http://brogramer.github.io/91swim</loc>
     <lastmod>2015-06-23T21:27:31+08:00</lastmod>
   </url>
   <url>
-    <loc>http://brogramer.github.io/blog/2015/06/23/hello/</loc>
+    <loc>http://brogramer.github.io/helloworld</loc>
     <lastmod>2015-06-23T21:25:27+08:00</lastmod>
   </url>
   <url>
@@ -17,9 +17,6 @@
   </url>
   <url>
     <loc>http://brogramer.github.io/</loc>
-  </url>
-  <url>
-    <loc>http://brogramer.github.io/cutfinger/</loc>
   </url>
   <url>
     <loc>http://brogramer.github.io/blog/categories/production/</loc>
