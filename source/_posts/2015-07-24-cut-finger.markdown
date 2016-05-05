@@ -4,6 +4,7 @@ title: "剁手指"
 date: 2015-07-24 00:55:44 +0800
 comments: true
 categories: production
+permalink: cutfinger
 ---
 
 {% img /images/apps/cutfinger/icon.png 144 144 %}
